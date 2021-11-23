@@ -1,0 +1,158 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<time.h>
+#define size1D 100
+#define size2D 10
+#define MAX_VALUE 900
+
+void ran(int list[], int size){                                              
+    int list2[size2D][size2D];
+    int i, ran, k=0;
+    int ROW, COL;
+    
+    //SRAND: Ger en slumpmässig startpunkt för varje tal. TIME(0) garanterar att varje startpunkt är unik.
+    srand(time(0));                 
+    //Randomniserar 100 tal i en 1D array.
+    for(i=0; i<size; i++){
+        ran = rand()%MAX_VALUE;
+        list[i]=ran;
+    }
+    //Konverterar till 2D
+    for(ROW=0; ROW<size2D; ROW++){
+        for(COL=0; COL<size2D; COL++){
+            list2[ROW][COL] = list[k++];
+        }
+    }
+    //Printar
+    for(ROW=0; ROW<size2D; ROW++){                         
+        for(COL=0; COL<size2D; COL++){
+            printf(" %d ", list2[ROW][COL]);
+            }
+            //Bryter column efter 10 tal.
+            printf("\n");                                
+        }
+    }
+
+void sort(int list[], int size){ 
+    int i, temp, step;
+    int ROW, COL, j, k=0;
+    int list2[size2D][size2D];
+
+    //BUBBELSORTERING
+    //loopar för varje element.
+    for (step = 0; step < size - 1; ++step) {   
+        //Jämför varje element.
+        for (int i = 0; i < size - step - 1; ++i) {
+            //Jämför elementen bredvid varandra; sorterar i ökande ordning
+            if(list[i]>list[i+1]){
+                temp = list[i];
+                list[i]=list[i+1];
+                list[i+1]=temp;
+                } 
+            }        
+        }
+    //konverterar till 2D
+    for(ROW=0; ROW<size2D; ROW++){
+        for(COL=0; COL<size2D; COL++){
+            list2[ROW][COL] = list[k++];
+        }    
+    }
+    //printar
+   for(ROW=0; ROW<size2D; ROW++){                         
+        for(COL=0; COL<size2D; COL++){
+            printf(" %d ", list2[ROW][COL]);
+        }
+            //Bryter column efter 10 tal.
+            printf("\n");                                
+    }
+}
+
+
+//Beräknar Medelvärde, median, max- och minvärde på talen i listan
+void calc(int list[], int size){
+    int i, sum = 0, avg;
+    printf("Minvärde: %d\n", list[0]);      //Printar ut den första position i den sorterade listan = minvärde
+
+    printf("Maxvärde: %d\n", list[size-1]);     //Printar ut den sista positionen i den sorterade listan = maxvärde
+
+    printf("Medianvärde: %d\n", ((list[48] + list[49]) / 2));   //Adderar värdena från position 49, 50 och delar summan för att skapa median
+
+    for(i = 0; i < size; ++i) {
+            sum += list[i];
+    }
+    avg = (sum / size);
+
+    printf("Medelvärde : %d\n", avg);       //En for loop som adderar alla tal till sum, vilket sen delas med size1D(100) för att skapa medelvärde
+}
+
+void search(int list[], int size){
+    int search;
+    int first, mid, last;
+    int n;
+
+    printf("Sök efter ett tal: ");
+    scanf("%d ", &search);
+
+    first = 0;
+    last = size1D-1;
+    mid = (first+last)/2;
+
+    while(first<=last){
+        if(list[mid]<=search){
+            first = mid + 1;
+        }
+        if(list[mid]==search){
+            printf("%d Index hittat: %d", search, mid+1);
+            break;
+        }
+        else{
+            last = mid + 1;
+            mid = (first+last)/2;
+        }
+    }
+    if (last>first){
+        printf("Talet finns inte!");
+    }
+}
+
+
+
+int main() {
+    int menu;  
+    int list[size1D];                                                           
+    
+    while(menu!=5){
+        printf("\nVänligen gör ett menyval:\n\n");                                  
+        printf("1 - Generera en talföljd\n");
+        printf("2 - Sortera talföljden efter storlek\n");
+        printf("3 - Räkna ut medelvärde, medaian, maxvärde och minvärde\n");
+        printf("4 - Binärsök efter ett tal\n");
+        printf("5 - Quit\n\n");
+
+        scanf("%d", &menu);
+
+        switch(menu){
+            case 1: ran(list, size1D); break;   
+            
+            //Kan ej köras såvida inte val 1 har gjorts.
+            case 2: sort(list, size1D); break;
+            
+            //Kan ej köras såvida inte val 2 har gjorts innan.
+            case 3: calc(list, size1D); break;
+            
+            //Kan ej köras såvida inte val 2 har gjorts innan.
+            case 4: search(list, size1D); printf("Binärsökning slutförd\n"); break;
+            
+            case 5: printf("\nShut down\n\n"); break;
+            
+            default: printf("Invalid choice\n"); break;
+        
+            return 0;
+        }   
+    }
+ }
+    
+
+    
+    
+    
