@@ -18,6 +18,8 @@
 
 <h3> 🤝🏻 &nbsp;Connect with Me </h3>
 <a href = "https://www.linkedin.com/in/axel-gl%C3%B6ckner-70386a223/"><img src = "https://image.flaticon.com/icons/svg/174/174857.svg" height= 15px width = 15px> Linkedin </a>&nbsp;&nbsp;
-[![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/anathaynafranca/)](https://www.linkedin.com/in/anathaynafranca/)
+
+<a href="https://www.linkedin.com/in/sarthak77"><img src="https://github.com/sarthak77/sarthak77/blob/master/icons/icons8-linkedin-circled-48.png" alt="LinkedIn"></a> &nbsp; &nbsp;
+
 <p align="center">
 </p>
