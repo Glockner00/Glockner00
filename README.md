@@ -11,7 +11,7 @@
 <br/>
 
 <a href="https://github.com/Glockner00">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Glockner00&theme=buefy&layout=compact" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Glockner00&theme=dark&layout=compact" />
 </a>
 
 <br/>
