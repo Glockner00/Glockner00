@@ -17,7 +17,7 @@
 
 
 <h3> 🤝🏻 &nbsp;Connect with Me </h3>
-https://www.linkedin.com/in/axel-gl%C3%B6ckner-70386a223/
+<a href = "https://www.linkedin.com/in/axel-gl%C3%B6ckner-70386a223/"><img src = "https://image.flaticon.com/icons/svg/174/174857.svg" height= 15px width = 15px> Linkedin </a>&nbsp;&nbsp;
 
 <p align="center">
 </p>
