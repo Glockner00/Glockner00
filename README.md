@@ -2,8 +2,6 @@
 
 - 🎓 &nbsp; Studying Master of Science in Information Technology at Linköpings Universitet. 
 
-<h3> 🛠 &nbsp;Tech Stack</h3>
-
 - 💻 &nbsp;
   ![Python](https://img.shields.io/badge/-Python-333333?style=flat&logo=python)
   ![Java](https://img.shields.io/badge/-Java-333333?style=flat&logo=Java&logoColor=007396)
