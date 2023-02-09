@@ -3,7 +3,6 @@
 - 🎓 &nbsp; Studying Master of Science in Information Technology at Linköpings Universitet. 
 
 - 💻 &nbsp;
--  https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white
 - ![Java](https://img.shields.io/badge/-Java-333333?style=flat&logo=Java&logoColor=007396)
   ![Python](https://img.shields.io/badge/-Python-333333?style=flat&logo=python)
   ![Lua](https://img.shields.io/badge/lua-333333??style=flat&logo=lua&logoColor=white)
