@@ -1,6 +1,6 @@
 <h3> 👨🏻‍💻 &nbsp;About Me </h3>
 
-- 🎓 &nbsp; Studying Master of Science in Information Technology at Linköpings Universitet. 
+- 🎓 &nbsp; Studying M.Sc Information Technology at Linköpings Universitet. 
 
 <br/>
 
