@@ -1,8 +1,3 @@
-<h3> 👨🏻‍💻 &nbsp;About Me </h3>
-
-- 🎓 &nbsp; Studying M.Sc Information Technology at Linköpings Universitet. 
-
-<br/>
 
 <a href="https://github.com/Glockner00">
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Glockner00&theme=dark&layout=compact" />
