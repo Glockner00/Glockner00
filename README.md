@@ -5,7 +5,7 @@
 
 <br/>
 
-<h3> 🤝🏻 &nbsp;Connect with Me </h3>
+<h3> &nbsp;Connect with Me </h3>
 
 <a href="https://www.linkedin.com/in/axel-gl%C3%B6ckner-70386a223/"><img src="https://github.com/sarthak77/sarthak77/blob/master/icons/icons8-linkedin-circled-48.png" alt="LinkedIn"></a> &nbsp; &nbsp;
 
